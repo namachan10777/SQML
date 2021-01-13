@@ -7,8 +7,8 @@ pub fn echo(s: &str) -> &str {
 
 #[cfg(test)]
 mod test {
-    use test_case::test_case;
     use super::*;
+    use test_case::test_case;
 
     #[test_case("WEHRE")]
     #[test_case("READ")]
